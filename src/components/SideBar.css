@@ -1,0 +1,40 @@
+/* The side navigation menu */
+.sidebar {
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #cbcbcb;
+    padding-top: 20px;
+    box-shadow: #575252;
+    box-shadow: 5px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.nav-link {
+    display: block;
+    width: 100%; /* Ensures the link spans the sidebar's width */
+    padding: 10px 15px; /* Adjust padding for better appearance */
+    text-decoration: none;
+    color: rgb(170, 207, 225); /* Default link color */
+}
+
+.nav-link:hover {
+    background-color: #9db5d8;
+    color: white;
+    width: auto;
+    height: auto;
+   
+
+}
